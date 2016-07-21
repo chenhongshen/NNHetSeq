@@ -1,6 +1,6 @@
 NNHetSeq
 =====
-NNHetSeq is a Bi-LSTM CRF based package for heterogeneous sequence labeling tasks. The system can be used for POS tagging, Named Entity Recognition, and other sequence labeling tasks. 
+NNHetSeq is a Bi-LSTM CRF based package for heterogeneous sequence labelling tasks. The system can be used for POS tagging, Named Entity Recognition, and other sequence labelling tasks. 
 
 Performance
 =====
