@@ -1,0 +1,50 @@
+维阿里 [C]维 [C]阿 [C]里 [S]P2@#START# [S]P1@#START# [S]U@维阿里 [S]N1@看好 [S]N2@欧文 [S]BiP1U@#START##维阿里 [S]BiN1U@看好#维阿里 [S]BiP1N1@#START##看好 [S]PRE1@维 [S]SUF1@里 [S]PRE2@维阿 [S]SUF2@阿里 [S]length@3 NR
+看好 [C]看 [C]好 [S]P2@#START# [S]P1@维阿里 [S]U@看好 [S]N1@欧文 [S]N2@#END# [S]BiP1U@维阿里#看好 [S]BiN1U@欧文#看好 [S]BiP1N1@维阿里#欧文 [S]PRE1@看 [S]SUF1@好 [S]length@2 VV
+欧文 [C]欧 [C]文 [S]P2@维阿里 [S]P1@看好 [S]U@欧文 [S]N1@#END# [S]N2@#END# [S]BiP1U@看好#欧文 [S]BiN1U@#END##欧文 [S]BiP1N1@看好##END# [S]PRE1@欧 [S]SUF1@文 [S]length@2 NR
+
+新华社 [C]新 [C]华 [C]社 [S]P2@#START# [S]P1@#START# [S]U@新华社 [S]N1@伦敦 [S]N2@12月 [S]BiP1U@#START##新华社 [S]BiN1U@伦敦#新华社 [S]BiP1N1@#START##伦敦 [S]PRE1@新 [S]SUF1@社 [S]PRE2@新华 [S]SUF2@华社 [S]length@3 NR
+伦敦 [C]伦 [C]敦 [S]P2@#START# [S]P1@新华社 [S]U@伦敦 [S]N1@12月 [S]N2@30日 [S]BiP1U@新华社#伦敦 [S]BiN1U@12月#伦敦 [S]BiP1N1@新华社#12月 [S]PRE1@伦 [S]SUF1@敦 [S]length@2 NR
+12月 [C]0 [C]0 [C]月 [S]P2@新华社 [S]P1@伦敦 [S]U@12月 [S]N1@30日 [S]N2@电 [S]BiP1U@伦敦#12月 [S]BiN1U@30日#12月 [S]BiP1N1@伦敦#30日 [S]PRE1@1 [S]SUF1@月 [S]PRE2@12 [S]SUF2@2月 [S]length@3 NT
+30日 [C]0 [C]0 [C]日 [S]P2@伦敦 [S]P1@12月 [S]U@30日 [S]N1@电 [S]N2@( [S]BiP1U@12月#30日 [S]BiN1U@电#30日 [S]BiP1N1@12月#电 [S]PRE1@3 [S]SUF1@日 [S]PRE2@30 [S]SUF2@0日 [S]length@3 NT
+电 [C]电 [S]P2@12月 [S]P1@30日 [S]U@电 [S]N1@( [S]N2@记者 [S]BiP1U@30日#电 [S]BiN1U@(#电 [S]BiP1N1@30日#( [S]length@1 NN
+( [C]( [S]P2@30日 [S]P1@电 [S]U@( [S]N1@记者 [S]N2@周杰 [S]BiP1U@电#( [S]BiN1U@记者#( [S]BiP1N1@电#记者 [S]length@1 PU
+记者 [C]记 [C]者 [S]P2@电 [S]P1@( [S]U@记者 [S]N1@周杰 [S]N2@) [S]BiP1U@(#记者 [S]BiN1U@周杰#记者 [S]BiP1N1@(#周杰 [S]PRE1@记 [S]SUF1@者 [S]length@2 NN
+周杰 [C]周 [C]杰 [S]P2@( [S]P1@记者 [S]U@周杰 [S]N1@) [S]N2@#END# [S]BiP1U@记者#周杰 [S]BiN1U@)#周杰 [S]BiP1N1@记者#) [S]PRE1@周 [S]SUF1@杰 [S]length@2 NR
+) [C]) [S]P2@记者 [S]P1@周杰 [S]U@) [S]N1@#END# [S]N2@#END# [S]BiP1U@周杰#) [S]BiN1U@#END##) [S]BiP1N1@周杰##END# [S]length@1 PU
+
+自古 [C]自 [C]古 [S]P2@#START# [S]P1@#START# [S]U@自古 [S]N1@英雄 [S]N2@识 [S]BiP1U@#START##自古 [S]BiN1U@英雄#自古 [S]BiP1N1@#START##英雄 [S]PRE1@自 [S]SUF1@古 [S]length@2 AD
+英雄 [C]英 [C]雄 [S]P2@#START# [S]P1@自古 [S]U@英雄 [S]N1@识 [S]N2@英雄 [S]BiP1U@自古#英雄 [S]BiN1U@识#英雄 [S]BiP1N1@自古#识 [S]PRE1@英 [S]SUF1@雄 [S]length@2 NN
+识 [C]识 [S]P2@自古 [S]P1@英雄 [S]U@识 [S]N1@英雄 [S]N2@, [S]BiP1U@英雄#识 [S]BiN1U@英雄#识 [S]BiP1N1@英雄#英雄 [S]length@1 VV
+英雄 [C]英 [C]雄 [S]P2@英雄 [S]P1@识 [S]U@英雄 [S]N1@, [S]N2@在 [S]BiP1U@识#英雄 [S]BiN1U@,#英雄 [S]BiP1N1@识#, [S]PRE1@英 [S]SUF1@雄 [S]length@2 NN
+, [C], [S]P2@识 [S]P1@英雄 [S]U@, [S]N1@在 [S]N2@足球 [S]BiP1U@英雄#, [S]BiN1U@在#, [S]BiP1N1@英雄#在 [S]length@1 PU
+在 [C]在 [S]P2@英雄 [S]P1@, [S]U@在 [S]N1@足球 [S]N2@明星 [S]BiP1U@,#在 [S]BiN1U@足球#在 [S]BiP1N1@,#足球 [S]length@1 P
+足球 [C]足 [C]球 [S]P2@, [S]P1@在 [S]U@足球 [S]N1@明星 [S]N2@维阿里 [S]BiP1U@在#足球 [S]BiN1U@明星#足球 [S]BiP1N1@在#明星 [S]PRE1@足 [S]SUF1@球 [S]length@2 NN
+明星 [C]明 [C]星 [S]P2@在 [S]P1@足球 [S]U@明星 [S]N1@维阿里 [S]N2@的 [S]BiP1U@足球#明星 [S]BiN1U@维阿里#明星 [S]BiP1N1@足球#维阿里 [S]PRE1@明 [S]SUF1@星 [S]length@2 NN
+维阿里 [C]维 [C]阿 [C]里 [S]P2@足球 [S]P1@明星 [S]U@维阿里 [S]N1@的 [S]N2@眼 [S]BiP1U@明星#维阿里 [S]BiN1U@的#维阿里 [S]BiP1N1@明星#的 [S]PRE1@维 [S]SUF1@里 [S]PRE2@维阿 [S]SUF2@阿里 [S]length@3 NR
+的 [C]的 [S]P2@明星 [S]P1@维阿里 [S]U@的 [S]N1@眼 [S]N2@里 [S]BiP1U@维阿里#的 [S]BiN1U@眼#的 [S]BiP1N1@维阿里#眼 [S]length@1 DEG
+眼 [C]眼 [S]P2@维阿里 [S]P1@的 [S]U@眼 [S]N1@里 [S]N2@, [S]BiP1U@的#眼 [S]BiN1U@里#眼 [S]BiP1N1@的#里 [S]length@1 NN
+里 [C]里 [S]P2@的 [S]P1@眼 [S]U@里 [S]N1@, [S]N2@只有 [S]BiP1U@眼#里 [S]BiN1U@,#里 [S]BiP1N1@眼#, [S]length@1 LC
+, [C], [S]P2@眼 [S]P1@里 [S]U@, [S]N1@只有 [S]N2@神奇 [S]BiP1U@里#, [S]BiN1U@只有#, [S]BiP1N1@里#只有 [S]length@1 PU
+只有 [C]只 [C]有 [S]P2@里 [S]P1@, [S]U@只有 [S]N1@神奇 [S]N2@小子 [S]BiP1U@,#只有 [S]BiN1U@神奇#只有 [S]BiP1N1@,#神奇 [S]PRE1@只 [S]SUF1@有 [S]length@2 AD
+神奇 [C]神 [C]奇 [S]P2@, [S]P1@只有 [S]U@神奇 [S]N1@小子 [S]N2@欧文 [S]BiP1U@只有#神奇 [S]BiN1U@小子#神奇 [S]BiP1N1@只有#小子 [S]PRE1@神 [S]SUF1@奇 [S]length@2 JJ
+小子 [C]小 [C]子 [S]P2@只有 [S]P1@神奇 [S]U@小子 [S]N1@欧文 [S]N2@可以 [S]BiP1U@神奇#小子 [S]BiN1U@欧文#小子 [S]BiP1N1@神奇#欧文 [S]PRE1@小 [S]SUF1@子 [S]length@2 NN
+欧文 [C]欧 [C]文 [S]P2@神奇 [S]P1@小子 [S]U@欧文 [S]N1@可以 [S]N2@成为 [S]BiP1U@小子#欧文 [S]BiN1U@可以#欧文 [S]BiP1N1@小子#可以 [S]PRE1@欧 [S]SUF1@文 [S]length@2 NR
+可以 [C]可 [C]以 [S]P2@小子 [S]P1@欧文 [S]U@可以 [S]N1@成为 [S]N2@超级 [S]BiP1U@欧文#可以 [S]BiN1U@成为#可以 [S]BiP1N1@欧文#成为 [S]PRE1@可 [S]SUF1@以 [S]length@2 VV
+成为 [C]成 [C]为 [S]P2@欧文 [S]P1@可以 [S]U@成为 [S]N1@超级 [S]N2@巨星 [S]BiP1U@可以#成为 [S]BiN1U@超级#成为 [S]BiP1N1@可以#超级 [S]PRE1@成 [S]SUF1@为 [S]length@2 VV
+超级 [C]超 [C]级 [S]P2@可以 [S]P1@成为 [S]U@超级 [S]N1@巨星 [S]N2@。 [S]BiP1U@成为#超级 [S]BiN1U@巨星#超级 [S]BiP1N1@成为#巨星 [S]PRE1@超 [S]SUF1@级 [S]length@2 JJ
+巨星 [C]巨 [C]星 [S]P2@成为 [S]P1@超级 [S]U@巨星 [S]N1@。 [S]N2@#END# [S]BiP1U@超级#巨星 [S]BiN1U@。#巨星 [S]BiP1N1@超级#。 [S]PRE1@巨 [S]SUF1@星 [S]length@2 NN
+。 [C]。 [S]P2@超级 [S]P1@巨星 [S]U@。 [S]N1@#END# [S]N2@#END# [S]BiP1U@巨星#。 [S]BiN1U@#END##。 [S]BiP1N1@巨星##END# [S]length@1 PU
+
+“ [C]“ [S]P2@#START# [S]P1@#START# [S]U@“ [S]N1@光头 [S]N2@” [S]BiP1U@#START##“ [S]BiN1U@光头#“ [S]BiP1N1@#START##光头 [S]length@1 PU
+光头 [C]光 [C]头 [S]P2@#START# [S]P1@“ [S]U@光头 [S]N1@” [S]N2@维阿里 [S]BiP1U@“#光头 [S]BiN1U@”#光头 [S]BiP1N1@“#” [S]PRE1@光 [S]SUF1@头 [S]length@2 NN
+” [C]” [S]P2@“ [S]P1@光头 [S]U@” [S]N1@维阿里 [S]N2@现在 [S]BiP1U@光头#” [S]BiN1U@维阿里#” [S]BiP1N1@光头#维阿里 [S]length@1 PU
+维阿里 [C]维 [C]阿 [C]里 [S]P2@光头 [S]P1@” [S]U@维阿里 [S]N1@现在 [S]N2@担任 [S]BiP1U@”#维阿里 [S]BiN1U@现在#维阿里 [S]BiP1N1@”#现在 [S]PRE1@维 [S]SUF1@里 [S]PRE2@维阿 [S]SUF2@阿里 [S]length@3 NR
+现在 [C]现 [C]在 [S]P2@” [S]P1@维阿里 [S]U@现在 [S]N1@担任 [S]N2@英格兰 [S]BiP1U@维阿里#现在 [S]BiN1U@担任#现在 [S]BiP1N1@维阿里#担任 [S]PRE1@现 [S]SUF1@在 [S]length@2 NT
+担任 [C]担 [C]任 [S]P2@维阿里 [S]P1@现在 [S]U@担任 [S]N1@英格兰 [S]N2@超级 [S]BiP1U@现在#担任 [S]BiN1U@英格兰#担任 [S]BiP1N1@现在#英格兰 [S]PRE1@担 [S]SUF1@任 [S]length@2 VV
+英格兰 [C]英 [C]格 [C]兰 [S]P2@现在 [S]P1@担任 [S]U@英格兰 [S]N1@超级 [S]N2@联赛 [S]BiP1U@担任#英格兰 [S]BiN1U@超级#英格兰 [S]BiP1N1@担任#超级 [S]PRE1@英 [S]SUF1@兰 [S]PRE2@英格 [S]SUF2@格兰 [S]length@3 NR
+超级 [C]超 [C]级 [S]P2@担任 [S]P1@英格兰 [S]U@超级 [S]N1@联赛 [S]N2@俱乐部 [S]BiP1U@英格兰#超级 [S]BiN1U@联赛#超级 [S]BiP1N1@英格兰#联赛 [S]PRE1@超 [S]SUF1@级 [S]length@2 JJ
+联赛 [C]联 [C]赛 [S]P2@英格兰 [S]P1@超级 [S]U@联赛 [S]N1@俱乐部 [S]N2@切尔西队 [S]BiP1U@超级#联赛 [S]BiN1U@俱乐部#联赛 [S]BiP1N1@超级#俱乐部 [S]PRE1@联 [S]SUF1@赛 [S]length@2 NN
+俱乐部 [C]俱 [C]乐 [C]部 [S]P2@超级 [S]P1@联赛 [S]U@俱乐部 [S]N1@切尔西队 [S]N2@的 [S]BiP1U@联赛#俱乐部 [S]BiN1U@切尔西队#俱乐部 [S]BiP1N1@联赛#切尔西队 [S]PRE1@俱 [S]SUF1@部 [S]PRE2@俱乐 [S]SUF2@乐部 [S]length@3 NN
+切尔西队 [C]切 [C]尔 [C]西 [C]队 [S]P2@联赛 [S]P1@俱乐部 [S]U@切尔西队 [S]N1@的 [S]N2@教练 [S]BiP1U@俱乐部#切尔西队 [S]BiN1U@的#切尔西队 [S]BiP1N1@俱乐部#的 [S]PRE1@切 [S]SUF1@队 [S]PRE2@切尔 [S]SUF2@西队 [S]PRE3@切尔西 [S]SUF3@尔西队 [S]length@4 NR
+的 [C]的 [S]P2@俱乐部 [S]P1@切尔西队 [S]U@的 [S]N1@教练 [S]N2@。 [S]BiP1U@切尔西队#的 [S]BiN1U@教练#的 [S]BiP1N1@切尔西队#教练 [S]length@1 DEG
+教练 [C]教 [C]练 [S]P2@切尔西队 [S]P1@的 [S]U@教练 [S]N1@。 [S]N2@#END# [S]BiP1U@的#教练 [S]BiN1U@。#教练 [S]BiP1N1@的#。 [S]PRE1@教 [S]SUF1@练 [S]length@2 NN

@@ -1,0 +1,1 @@
+./COUPLE_LSTMCRFMMLabeler -l -c1_train ctb/ctb.train.nn.a2b.sample -c1_dev ctb/ctb.dev.nn.a2b.sample -c1_test ctb/ctb.test.nn.a2b.sample -c2_train pd/pd.train.nn.sample -c2_dev pd/pd.dev.nn.sample  -option  option.couple -word giga_cn50.w2v.sample -model model.couple.ctb.pd.sample

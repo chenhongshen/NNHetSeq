@@ -1,0 +1,50 @@
+戴相龙 [C]戴 [C]相 [C]龙 [S]P2@#START# [S]P1@#START# [S]U@戴相龙 [S]N1@说 [S]N2@中国 [S]BiP1U@#START##戴相龙 [S]BiN1U@说#戴相龙 [S]BiP1N1@#START##说 [S]PRE1@戴 [S]SUF1@龙 [S]PRE2@戴相 [S]SUF2@相龙 [S]length@3 NR
+说 [C]说 [S]P2@#START# [S]P1@戴相龙 [S]U@说 [S]N1@中国 [S]N2@经济 [S]BiP1U@戴相龙#说 [S]BiN1U@中国#说 [S]BiP1N1@戴相龙#中国 [S]length@1 VV
+中国 [C]中 [C]国 [S]P2@戴相龙 [S]P1@说 [S]U@中国 [S]N1@经济 [S]N2@发展 [S]BiP1U@说#中国 [S]BiN1U@经济#中国 [S]BiP1N1@说#经济 [S]PRE1@中 [S]SUF1@国 [S]length@2 NR
+经济 [C]经 [C]济 [S]P2@说 [S]P1@中国 [S]U@经济 [S]N1@发展 [S]N2@为 [S]BiP1U@中国#经济 [S]BiN1U@发展#经济 [S]BiP1N1@中国#发展 [S]PRE1@经 [S]SUF1@济 [S]length@2 NN
+发展 [C]发 [C]展 [S]P2@中国 [S]P1@经济 [S]U@发展 [S]N1@为 [S]N2@亚洲 [S]BiP1U@经济#发展 [S]BiN1U@为#发展 [S]BiP1N1@经济#为 [S]PRE1@发 [S]SUF1@展 [S]length@2 NN
+为 [C]为 [S]P2@经济 [S]P1@发展 [S]U@为 [S]N1@亚洲 [S]N2@作出 [S]BiP1U@发展#为 [S]BiN1U@亚洲#为 [S]BiP1N1@发展#亚洲 [S]length@1 P
+亚洲 [C]亚 [C]洲 [S]P2@发展 [S]P1@为 [S]U@亚洲 [S]N1@作出 [S]N2@积极 [S]BiP1U@为#亚洲 [S]BiN1U@作出#亚洲 [S]BiP1N1@为#作出 [S]PRE1@亚 [S]SUF1@洲 [S]length@2 NR
+作出 [C]作 [C]出 [S]P2@为 [S]P1@亚洲 [S]U@作出 [S]N1@积极 [S]N2@贡献 [S]BiP1U@亚洲#作出 [S]BiN1U@积极#作出 [S]BiP1N1@亚洲#积极 [S]PRE1@作 [S]SUF1@出 [S]length@2 VV
+积极 [C]积 [C]极 [S]P2@亚洲 [S]P1@作出 [S]U@积极 [S]N1@贡献 [S]N2@#END# [S]BiP1U@作出#积极 [S]BiN1U@贡献#积极 [S]BiP1N1@作出#贡献 [S]PRE1@积 [S]SUF1@极 [S]length@2 JJ
+贡献 [C]贡 [C]献 [S]P2@作出 [S]P1@积极 [S]U@贡献 [S]N1@#END# [S]N2@#END# [S]BiP1U@积极#贡献 [S]BiN1U@#END##贡献 [S]BiP1N1@积极##END# [S]PRE1@贡 [S]SUF1@献 [S]length@2 NN
+
+新华社 [C]新 [C]华 [C]社 [S]P2@#START# [S]P1@#START# [S]U@新华社 [S]N1@福冈 [S]N2@5月 [S]BiP1U@#START##新华社 [S]BiN1U@福冈#新华社 [S]BiP1N1@#START##福冈 [S]PRE1@新 [S]SUF1@社 [S]PRE2@新华 [S]SUF2@华社 [S]length@3 NR
+福冈 [C]福 [C]冈 [S]P2@#START# [S]P1@新华社 [S]U@福冈 [S]N1@5月 [S]N2@11日 [S]BiP1U@新华社#福冈 [S]BiN1U@5月#福冈 [S]BiP1N1@新华社#5月 [S]PRE1@福 [S]SUF1@冈 [S]length@2 NR
+5月 [C]0 [C]月 [S]P2@新华社 [S]P1@福冈 [S]U@5月 [S]N1@11日 [S]N2@电 [S]BiP1U@福冈#5月 [S]BiN1U@11日#5月 [S]BiP1N1@福冈#11日 [S]PRE1@5 [S]SUF1@月 [S]length@2 NT
+11日 [C]0 [C]0 [C]日 [S]P2@福冈 [S]P1@5月 [S]U@11日 [S]N1@电 [S]N2@( [S]BiP1U@5月#11日 [S]BiN1U@电#11日 [S]BiP1N1@5月#电 [S]PRE1@1 [S]SUF1@日 [S]PRE2@11 [S]SUF2@1日 [S]length@3 NT
+电 [C]电 [S]P2@5月 [S]P1@11日 [S]U@电 [S]N1@( [S]N2@记者 [S]BiP1U@11日#电 [S]BiN1U@(#电 [S]BiP1N1@11日#( [S]length@1 NN
+( [C]( [S]P2@11日 [S]P1@电 [S]U@( [S]N1@记者 [S]N2@乐绍延 [S]BiP1U@电#( [S]BiN1U@记者#( [S]BiP1N1@电#记者 [S]length@1 PU
+记者 [C]记 [C]者 [S]P2@电 [S]P1@( [S]U@记者 [S]N1@乐绍延 [S]N2@) [S]BiP1U@(#记者 [S]BiN1U@乐绍延#记者 [S]BiP1N1@(#乐绍延 [S]PRE1@记 [S]SUF1@者 [S]length@2 NN
+乐绍延 [C]乐 [C]绍 [C]延 [S]P2@( [S]P1@记者 [S]U@乐绍延 [S]N1@) [S]N2@#END# [S]BiP1U@记者#乐绍延 [S]BiN1U@)#乐绍延 [S]BiP1N1@记者#) [S]PRE1@乐 [S]SUF1@延 [S]PRE2@乐绍 [S]SUF2@绍延 [S]length@3 NR
+) [C]) [S]P2@记者 [S]P1@乐绍延 [S]U@) [S]N1@#END# [S]N2@#END# [S]BiP1U@乐绍延#) [S]BiN1U@#END##) [S]BiP1N1@乐绍延##END# [S]length@1 PU
+
+中国 [C]中 [C]国 [S]P2@#START# [S]P1@#START# [S]U@中国 [S]N1@人民 [S]N2@银行 [S]BiP1U@#START##中国 [S]BiN1U@人民#中国 [S]BiP1N1@#START##人民 [S]PRE1@中 [S]SUF1@国 [S]length@2 NR
+人民 [C]人 [C]民 [S]P2@#START# [S]P1@中国 [S]U@人民 [S]N1@银行 [S]N2@行长 [S]BiP1U@中国#人民 [S]BiN1U@银行#人民 [S]BiP1N1@中国#银行 [S]PRE1@人 [S]SUF1@民 [S]length@2 NN
+银行 [C]银 [C]行 [S]P2@中国 [S]P1@人民 [S]U@银行 [S]N1@行长 [S]N2@戴相龙 [S]BiP1U@人民#银行 [S]BiN1U@行长#银行 [S]BiP1N1@人民#行长 [S]PRE1@银 [S]SUF1@行 [S]length@2 NN
+行长 [C]行 [C]长 [S]P2@人民 [S]P1@银行 [S]U@行长 [S]N1@戴相龙 [S]N2@今天 [S]BiP1U@银行#行长 [S]BiN1U@戴相龙#行长 [S]BiP1N1@银行#戴相龙 [S]PRE1@行 [S]SUF1@长 [S]length@2 NN
+戴相龙 [C]戴 [C]相 [C]龙 [S]P2@银行 [S]P1@行长 [S]U@戴相龙 [S]N1@今天 [S]N2@在 [S]BiP1U@行长#戴相龙 [S]BiN1U@今天#戴相龙 [S]BiP1N1@行长#今天 [S]PRE1@戴 [S]SUF1@龙 [S]PRE2@戴相 [S]SUF2@相龙 [S]length@3 NR
+今天 [C]今 [C]天 [S]P2@行长 [S]P1@戴相龙 [S]U@今天 [S]N1@在 [S]N2@亚洲 [S]BiP1U@戴相龙#今天 [S]BiN1U@在#今天 [S]BiP1N1@戴相龙#在 [S]PRE1@今 [S]SUF1@天 [S]length@2 NT
+在 [C]在 [S]P2@戴相龙 [S]P1@今天 [S]U@在 [S]N1@亚洲 [S]N2@开发 [S]BiP1U@今天#在 [S]BiN1U@亚洲#在 [S]BiP1N1@今天#亚洲 [S]length@1 P
+亚洲 [C]亚 [C]洲 [S]P2@今天 [S]P1@在 [S]U@亚洲 [S]N1@开发 [S]N2@银行 [S]BiP1U@在#亚洲 [S]BiN1U@开发#亚洲 [S]BiP1N1@在#开发 [S]PRE1@亚 [S]SUF1@洲 [S]length@2 NR
+开发 [C]开 [C]发 [S]P2@在 [S]P1@亚洲 [S]U@开发 [S]N1@银行 [S]N2@第30 [S]BiP1U@亚洲#开发 [S]BiN1U@银行#开发 [S]BiP1N1@亚洲#银行 [S]PRE1@开 [S]SUF1@发 [S]length@2 NN
+银行 [C]银 [C]行 [S]P2@亚洲 [S]P1@开发 [S]U@银行 [S]N1@第30 [S]N2@届 [S]BiP1U@开发#银行 [S]BiN1U@第30#银行 [S]BiP1N1@开发#第30 [S]PRE1@银 [S]SUF1@行 [S]length@2 NN
+第30 [C]第 [C]0 [C]0 [S]P2@开发 [S]P1@银行 [S]U@第30 [S]N1@届 [S]N2@年会 [S]BiP1U@银行#第30 [S]BiN1U@届#第30 [S]BiP1N1@银行#届 [S]PRE1@第 [S]SUF1@0 [S]PRE2@第3 [S]SUF2@30 [S]length@3 OD
+届 [C]届 [S]P2@银行 [S]P1@第30 [S]U@届 [S]N1@年会 [S]N2@的 [S]BiP1U@第30#届 [S]BiN1U@年会#届 [S]BiP1N1@第30#年会 [S]length@1 M
+年会 [C]年 [C]会 [S]P2@第30 [S]P1@届 [S]U@年会 [S]N1@的 [S]N2@“ [S]BiP1U@届#年会 [S]BiN1U@的#年会 [S]BiP1N1@届#的 [S]PRE1@年 [S]SUF1@会 [S]length@2 NN
+的 [C]的 [S]P2@届 [S]P1@年会 [S]U@的 [S]N1@“ [S]N2@亚洲 [S]BiP1U@年会#的 [S]BiN1U@“#的 [S]BiP1N1@年会#“ [S]length@1 DEG
+“ [C]“ [S]P2@年会 [S]P1@的 [S]U@“ [S]N1@亚洲 [S]N2@未来 [S]BiP1U@的#“ [S]BiN1U@亚洲#“ [S]BiP1N1@的#亚洲 [S]length@1 PU
+亚洲 [C]亚 [C]洲 [S]P2@的 [S]P1@“ [S]U@亚洲 [S]N1@未来 [S]N2@30 [S]BiP1U@“#亚洲 [S]BiN1U@未来#亚洲 [S]BiP1N1@“#未来 [S]PRE1@亚 [S]SUF1@洲 [S]length@2 NR
+未来 [C]未 [C]来 [S]P2@“ [S]P1@亚洲 [S]U@未来 [S]N1@30 [S]N2@年 [S]BiP1U@亚洲#未来 [S]BiN1U@30#未来 [S]BiP1N1@亚洲#30 [S]PRE1@未 [S]SUF1@来 [S]length@2 NT
+30 [C]0 [C]0 [S]P2@亚洲 [S]P1@未来 [S]U@30 [S]N1@年 [S]N2@” [S]BiP1U@未来#30 [S]BiN1U@年#30 [S]BiP1N1@未来#年 [S]PRE1@3 [S]SUF1@0 [S]length@2 CD
+年 [C]年 [S]P2@未来 [S]P1@30 [S]U@年 [S]N1@” [S]N2@研讨会 [S]BiP1U@30#年 [S]BiN1U@”#年 [S]BiP1N1@30#” [S]length@1 M
+” [C]” [S]P2@30 [S]P1@年 [S]U@” [S]N1@研讨会 [S]N2@上 [S]BiP1U@年#” [S]BiN1U@研讨会#” [S]BiP1N1@年#研讨会 [S]length@1 PU
+研讨会 [C]研 [C]讨 [C]会 [S]P2@年 [S]P1@” [S]U@研讨会 [S]N1@上 [S]N2@说 [S]BiP1U@”#研讨会 [S]BiN1U@上#研讨会 [S]BiP1N1@”#上 [S]PRE1@研 [S]SUF1@会 [S]PRE2@研讨 [S]SUF2@讨会 [S]length@3 NN
+上 [C]上 [S]P2@” [S]P1@研讨会 [S]U@上 [S]N1@说 [S]N2@, [S]BiP1U@研讨会#上 [S]BiN1U@说#上 [S]BiP1N1@研讨会#说 [S]length@1 LC
+说 [C]说 [S]P2@研讨会 [S]P1@上 [S]U@说 [S]N1@, [S]N2@中国 [S]BiP1U@上#说 [S]BiN1U@,#说 [S]BiP1N1@上#, [S]length@1 VV
+, [C], [S]P2@上 [S]P1@说 [S]U@, [S]N1@中国 [S]N2@的 [S]BiP1U@说#, [S]BiN1U@中国#, [S]BiP1N1@说#中国 [S]length@1 PU
+中国 [C]中 [C]国 [S]P2@说 [S]P1@, [S]U@中国 [S]N1@的 [S]N2@经济 [S]BiP1U@,#中国 [S]BiN1U@的#中国 [S]BiP1N1@,#的 [S]PRE1@中 [S]SUF1@国 [S]length@2 NR
+的 [C]的 [S]P2@, [S]P1@中国 [S]U@的 [S]N1@经济 [S]N2@发展 [S]BiP1U@中国#的 [S]BiN1U@经济#的 [S]BiP1N1@中国#经济 [S]length@1 DEG
+经济 [C]经 [C]济 [S]P2@中国 [S]P1@的 [S]U@经济 [S]N1@发展 [S]N2@为 [S]BiP1U@的#经济 [S]BiN1U@发展#经济 [S]BiP1N1@的#发展 [S]PRE1@经 [S]SUF1@济 [S]length@2 NN
+发展 [C]发 [C]展 [S]P2@的 [S]P1@经济 [S]U@发展 [S]N1@为 [S]N2@亚洲 [S]BiP1U@经济#发展 [S]BiN1U@为#发展 [S]BiP1N1@经济#为 [S]PRE1@发 [S]SUF1@展 [S]length@2 NN
+为 [C]为 [S]P2@经济 [S]P1@发展 [S]U@为 [S]N1@亚洲 [S]N2@的 [S]BiP1U@发展#为 [S]BiN1U@亚洲#为 [S]BiP1N1@发展#亚洲 [S]length@1 P

@@ -1,0 +1,50 @@
+上海 [C]上 [C]海 [S]P2@#START# [S]P1@#START# [S]U@上海 [S]N1@浦东 [S]N2@开发 [S]BiP1U@#START##上海 [S]BiN1U@浦东#上海 [S]BiP1N1@#START##浦东 [S]PRE1@上 [S]SUF1@海 [S]length@2 NR
+浦东 [C]浦 [C]东 [S]P2@#START# [S]P1@上海 [S]U@浦东 [S]N1@开发 [S]N2@与 [S]BiP1U@上海#浦东 [S]BiN1U@开发#浦东 [S]BiP1N1@上海#开发 [S]PRE1@浦 [S]SUF1@东 [S]length@2 NR
+开发 [C]开 [C]发 [S]P2@上海 [S]P1@浦东 [S]U@开发 [S]N1@与 [S]N2@法制 [S]BiP1U@浦东#开发 [S]BiN1U@与#开发 [S]BiP1N1@浦东#与 [S]PRE1@开 [S]SUF1@发 [S]length@2 NN
+与 [C]与 [S]P2@浦东 [S]P1@开发 [S]U@与 [S]N1@法制 [S]N2@建设 [S]BiP1U@开发#与 [S]BiN1U@法制#与 [S]BiP1N1@开发#法制 [S]length@1 CC
+法制 [C]法 [C]制 [S]P2@开发 [S]P1@与 [S]U@法制 [S]N1@建设 [S]N2@同步 [S]BiP1U@与#法制 [S]BiN1U@建设#法制 [S]BiP1N1@与#建设 [S]PRE1@法 [S]SUF1@制 [S]length@2 NN
+建设 [C]建 [C]设 [S]P2@与 [S]P1@法制 [S]U@建设 [S]N1@同步 [S]N2@#END# [S]BiP1U@法制#建设 [S]BiN1U@同步#建设 [S]BiP1N1@法制#同步 [S]PRE1@建 [S]SUF1@设 [S]length@2 NN
+同步 [C]同 [C]步 [S]P2@法制 [S]P1@建设 [S]U@同步 [S]N1@#END# [S]N2@#END# [S]BiP1U@建设#同步 [S]BiN1U@#END##同步 [S]BiP1N1@建设##END# [S]PRE1@同 [S]SUF1@步 [S]length@2 VV
+
+新华社 [C]新 [C]华 [C]社 [S]P2@#START# [S]P1@#START# [S]U@新华社 [S]N1@上海 [S]N2@二月 [S]BiP1U@#START##新华社 [S]BiN1U@上海#新华社 [S]BiP1N1@#START##上海 [S]PRE1@新 [S]SUF1@社 [S]PRE2@新华 [S]SUF2@华社 [S]length@3 NN
+上海 [C]上 [C]海 [S]P2@#START# [S]P1@新华社 [S]U@上海 [S]N1@二月 [S]N2@十日 [S]BiP1U@新华社#上海 [S]BiN1U@二月#上海 [S]BiP1N1@新华社#二月 [S]PRE1@上 [S]SUF1@海 [S]length@2 NR
+二月 [C]二 [C]月 [S]P2@新华社 [S]P1@上海 [S]U@二月 [S]N1@十日 [S]N2@电 [S]BiP1U@上海#二月 [S]BiN1U@十日#二月 [S]BiP1N1@上海#十日 [S]PRE1@二 [S]SUF1@月 [S]length@2 NT
+十日 [C]十 [C]日 [S]P2@上海 [S]P1@二月 [S]U@十日 [S]N1@电 [S]N2@( [S]BiP1U@二月#十日 [S]BiN1U@电#十日 [S]BiP1N1@二月#电 [S]PRE1@十 [S]SUF1@日 [S]length@2 NT
+电 [C]电 [S]P2@二月 [S]P1@十日 [S]U@电 [S]N1@( [S]N2@记者 [S]BiP1U@十日#电 [S]BiN1U@(#电 [S]BiP1N1@十日#( [S]length@1 NN
+( [C]( [S]P2@十日 [S]P1@电 [S]U@( [S]N1@记者 [S]N2@谢金虎 [S]BiP1U@电#( [S]BiN1U@记者#( [S]BiP1N1@电#记者 [S]length@1 PU
+记者 [C]记 [C]者 [S]P2@电 [S]P1@( [S]U@记者 [S]N1@谢金虎 [S]N2@、 [S]BiP1U@(#记者 [S]BiN1U@谢金虎#记者 [S]BiP1N1@(#谢金虎 [S]PRE1@记 [S]SUF1@者 [S]length@2 NN
+谢金虎 [C]谢 [C]金 [C]虎 [S]P2@( [S]P1@记者 [S]U@谢金虎 [S]N1@、 [S]N2@张持坚 [S]BiP1U@记者#谢金虎 [S]BiN1U@、#谢金虎 [S]BiP1N1@记者#、 [S]PRE1@谢 [S]SUF1@虎 [S]PRE2@谢金 [S]SUF2@金虎 [S]length@3 NR
+、 [C]、 [S]P2@记者 [S]P1@谢金虎 [S]U@、 [S]N1@张持坚 [S]N2@) [S]BiP1U@谢金虎#、 [S]BiN1U@张持坚#、 [S]BiP1N1@谢金虎#张持坚 [S]length@1 PU
+张持坚 [C]张 [C]持 [C]坚 [S]P2@谢金虎 [S]P1@、 [S]U@张持坚 [S]N1@) [S]N2@#END# [S]BiP1U@、#张持坚 [S]BiN1U@)#张持坚 [S]BiP1N1@、#) [S]PRE1@张 [S]SUF1@坚 [S]PRE2@张持 [S]SUF2@持坚 [S]length@3 NR
+) [C]) [S]P2@、 [S]P1@张持坚 [S]U@) [S]N1@#END# [S]N2@#END# [S]BiP1U@张持坚#) [S]BiN1U@#END##) [S]BiP1N1@张持坚##END# [S]length@1 PU
+
+上海 [C]上 [C]海 [S]P2@#START# [S]P1@#START# [S]U@上海 [S]N1@浦东 [S]N2@近年 [S]BiP1U@#START##上海 [S]BiN1U@浦东#上海 [S]BiP1N1@#START##浦东 [S]PRE1@上 [S]SUF1@海 [S]length@2 NR
+浦东 [C]浦 [C]东 [S]P2@#START# [S]P1@上海 [S]U@浦东 [S]N1@近年 [S]N2@来 [S]BiP1U@上海#浦东 [S]BiN1U@近年#浦东 [S]BiP1N1@上海#近年 [S]PRE1@浦 [S]SUF1@东 [S]length@2 NR
+近年 [C]近 [C]年 [S]P2@上海 [S]P1@浦东 [S]U@近年 [S]N1@来 [S]N2@颁布 [S]BiP1U@浦东#近年 [S]BiN1U@来#近年 [S]BiP1N1@浦东#来 [S]PRE1@近 [S]SUF1@年 [S]length@2 NT
+来 [C]来 [S]P2@浦东 [S]P1@近年 [S]U@来 [S]N1@颁布 [S]N2@实行 [S]BiP1U@近年#来 [S]BiN1U@颁布#来 [S]BiP1N1@近年#颁布 [S]length@1 LC
+颁布 [C]颁 [C]布 [S]P2@近年 [S]P1@来 [S]U@颁布 [S]N1@实行 [S]N2@了 [S]BiP1U@来#颁布 [S]BiN1U@实行#颁布 [S]BiP1N1@来#实行 [S]PRE1@颁 [S]SUF1@布 [S]length@2 VV
+实行 [C]实 [C]行 [S]P2@来 [S]P1@颁布 [S]U@实行 [S]N1@了 [S]N2@涉及 [S]BiP1U@颁布#实行 [S]BiN1U@了#实行 [S]BiP1N1@颁布#了 [S]PRE1@实 [S]SUF1@行 [S]length@2 VV
+了 [C]了 [S]P2@颁布 [S]P1@实行 [S]U@了 [S]N1@涉及 [S]N2@经济 [S]BiP1U@实行#了 [S]BiN1U@涉及#了 [S]BiP1N1@实行#涉及 [S]length@1 AS
+涉及 [C]涉 [C]及 [S]P2@实行 [S]P1@了 [S]U@涉及 [S]N1@经济 [S]N2@、 [S]BiP1U@了#涉及 [S]BiN1U@经济#涉及 [S]BiP1N1@了#经济 [S]PRE1@涉 [S]SUF1@及 [S]length@2 VV
+经济 [C]经 [C]济 [S]P2@了 [S]P1@涉及 [S]U@经济 [S]N1@、 [S]N2@贸易 [S]BiP1U@涉及#经济 [S]BiN1U@、#经济 [S]BiP1N1@涉及#、 [S]PRE1@经 [S]SUF1@济 [S]length@2 NN
+、 [C]、 [S]P2@涉及 [S]P1@经济 [S]U@、 [S]N1@贸易 [S]N2@、 [S]BiP1U@经济#、 [S]BiN1U@贸易#、 [S]BiP1N1@经济#贸易 [S]length@1 PU
+贸易 [C]贸 [C]易 [S]P2@经济 [S]P1@、 [S]U@贸易 [S]N1@、 [S]N2@建设 [S]BiP1U@、#贸易 [S]BiN1U@、#贸易 [S]BiP1N1@、#、 [S]PRE1@贸 [S]SUF1@易 [S]length@2 NN
+、 [C]、 [S]P2@、 [S]P1@贸易 [S]U@、 [S]N1@建设 [S]N2@、 [S]BiP1U@贸易#、 [S]BiN1U@建设#、 [S]BiP1N1@贸易#建设 [S]length@1 PU
+建设 [C]建 [C]设 [S]P2@贸易 [S]P1@、 [S]U@建设 [S]N1@、 [S]N2@规划 [S]BiP1U@、#建设 [S]BiN1U@、#建设 [S]BiP1N1@、#、 [S]PRE1@建 [S]SUF1@设 [S]length@2 NN
+、 [C]、 [S]P2@、 [S]P1@建设 [S]U@、 [S]N1@规划 [S]N2@、 [S]BiP1U@建设#、 [S]BiN1U@规划#、 [S]BiP1N1@建设#规划 [S]length@1 PU
+规划 [C]规 [C]划 [S]P2@建设 [S]P1@、 [S]U@规划 [S]N1@、 [S]N2@科技 [S]BiP1U@、#规划 [S]BiN1U@、#规划 [S]BiP1N1@、#、 [S]PRE1@规 [S]SUF1@划 [S]length@2 NN
+、 [C]、 [S]P2@、 [S]P1@规划 [S]U@、 [S]N1@科技 [S]N2@、 [S]BiP1U@规划#、 [S]BiN1U@科技#、 [S]BiP1N1@规划#科技 [S]length@1 PU
+科技 [C]科 [C]技 [S]P2@规划 [S]P1@、 [S]U@科技 [S]N1@、 [S]N2@文教 [S]BiP1U@、#科技 [S]BiN1U@、#科技 [S]BiP1N1@、#、 [S]PRE1@科 [S]SUF1@技 [S]length@2 NN
+、 [C]、 [S]P2@、 [S]P1@科技 [S]U@、 [S]N1@文教 [S]N2@等 [S]BiP1U@科技#、 [S]BiN1U@文教#、 [S]BiP1N1@科技#文教 [S]length@1 PU
+文教 [C]文 [C]教 [S]P2@科技 [S]P1@、 [S]U@文教 [S]N1@等 [S]N2@领域 [S]BiP1U@、#文教 [S]BiN1U@等#文教 [S]BiP1N1@、#等 [S]PRE1@文 [S]SUF1@教 [S]length@2 NN
+等 [C]等 [S]P2@、 [S]P1@文教 [S]U@等 [S]N1@领域 [S]N2@的 [S]BiP1U@文教#等 [S]BiN1U@领域#等 [S]BiP1N1@文教#领域 [S]length@1 ETC
+领域 [C]领 [C]域 [S]P2@文教 [S]P1@等 [S]U@领域 [S]N1@的 [S]N2@七十一 [S]BiP1U@等#领域 [S]BiN1U@的#领域 [S]BiP1N1@等#的 [S]PRE1@领 [S]SUF1@域 [S]length@2 NN
+的 [C]的 [S]P2@等 [S]P1@领域 [S]U@的 [S]N1@七十一 [S]N2@件 [S]BiP1U@领域#的 [S]BiN1U@七十一#的 [S]BiP1N1@领域#七十一 [S]length@1 DEC
+七十一 [C]七 [C]十 [C]一 [S]P2@领域 [S]P1@的 [S]U@七十一 [S]N1@件 [S]N2@法规性 [S]BiP1U@的#七十一 [S]BiN1U@件#七十一 [S]BiP1N1@的#件 [S]PRE1@七 [S]SUF1@一 [S]PRE2@七十 [S]SUF2@十一 [S]length@3 CD
+件 [C]件 [S]P2@的 [S]P1@七十一 [S]U@件 [S]N1@法规性 [S]N2@文件 [S]BiP1U@七十一#件 [S]BiN1U@法规性#件 [S]BiP1N1@七十一#法规性 [S]length@1 M
+法规性 [C]法 [C]规 [C]性 [S]P2@七十一 [S]P1@件 [S]U@法规性 [S]N1@文件 [S]N2@, [S]BiP1U@件#法规性 [S]BiN1U@文件#法规性 [S]BiP1N1@件#文件 [S]PRE1@法 [S]SUF1@性 [S]PRE2@法规 [S]SUF2@规性 [S]length@3 NN
+文件 [C]文 [C]件 [S]P2@件 [S]P1@法规性 [S]U@文件 [S]N1@, [S]N2@确保 [S]BiP1U@法规性#文件 [S]BiN1U@,#文件 [S]BiP1N1@法规性#, [S]PRE1@文 [S]SUF1@件 [S]length@2 NN
+, [C], [S]P2@法规性 [S]P1@文件 [S]U@, [S]N1@确保 [S]N2@了 [S]BiP1U@文件#, [S]BiN1U@确保#, [S]BiP1N1@文件#确保 [S]length@1 PU
+确保 [C]确 [C]保 [S]P2@文件 [S]P1@, [S]U@确保 [S]N1@了 [S]N2@浦东 [S]BiP1U@,#确保 [S]BiN1U@了#确保 [S]BiP1N1@,#了 [S]PRE1@确 [S]SUF1@保 [S]length@2 VV
+了 [C]了 [S]P2@, [S]P1@确保 [S]U@了 [S]N1@浦东 [S]N2@开发 [S]BiP1U@确保#了 [S]BiN1U@浦东#了 [S]BiP1N1@确保#浦东 [S]length@1 AS
+浦东 [C]浦 [C]东 [S]P2@确保 [S]P1@了 [S]U@浦东 [S]N1@开发 [S]N2@的 [S]BiP1U@了#浦东 [S]BiN1U@开发#浦东 [S]BiP1N1@了#开发 [S]PRE1@浦 [S]SUF1@东 [S]length@2 NR
