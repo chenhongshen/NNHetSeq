@@ -4,6 +4,7 @@ NNHetSeq is a Bi-LSTM CRF based package for heterogeneous sequence labeling task
 
 Performance
 =====
+POS-tagging accuracies of CTB5 boosts from 94.24 to 95.40 aided by PD corpus.
 
 Prerequisition
 =====
