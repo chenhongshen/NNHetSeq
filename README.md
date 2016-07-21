@@ -5,6 +5,9 @@ NNHetSeq is a Bi-LSTM CRF based package for heterogeneous sequence labeling task
 Performance
 =====
 
+Prerequisition
+=====
+[LibN3L](https://github.com/SUTDNLP/LibN3L)
 
 Compile
 ======
